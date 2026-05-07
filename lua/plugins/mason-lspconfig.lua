@@ -9,7 +9,6 @@ return {
       "html",
       "ts_ls",
       "clangd",
-      "hls"
     },
   },
   dependencies = {
