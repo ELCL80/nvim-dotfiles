@@ -31,6 +31,28 @@ vim.lsp.config("hls", {
     }
 })
 
+vim.lsp.enable('nixd')
+vim.lsp.config("nixd", {
+    settings = {
+        nixd = {
+            nixpkgs = {
+                -- Use this to point to your nixpkgs channel if needed
+                expr = "import <nixpkgs> { }",
+            },
+            formatting = {
+                command = { "nixfmt" }, -- or "alejandra"
+            },
+        },
+    },
+})
+
+
+
+
+
+
+-------------------------------------------------------------------------------
+
 local keymap = vim.keymap
 vim.api.nvim_create_autocmd("LspAttach", {
   group = vim.api.nvim_create_augroup("UserLspConfig", {}),
