@@ -4,7 +4,7 @@ options.autoindent = true
 options.expandtab = true
 options.tabstop = 4 -- Number of spaces for a tab
 options.shiftwidth = 4 -- Indentation size for autoindent
-options.smartindent = true
+options.smartindent = false 
 
 options.guicursor = ""
 
@@ -21,5 +21,4 @@ options.termguicolors = true
 options.scrolloff = 4
 
 options.showmode = false
-options.cmdheight = 0    -- Hide command line when not in use
-
+options.cmdheight = 0    
