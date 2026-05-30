@@ -21,5 +21,5 @@ options.termguicolors = true
 options.scrolloff = 4
 
 options.showmode = false
-vim.opt.cmdheight = 0    -- Hide command line when not in use
+options.cmdheight = 0    -- Hide command line when not in use
 
