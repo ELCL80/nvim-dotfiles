@@ -1,5 +1,5 @@
 return {
-    'neovim/haskell-vim',
+    'neovimhaskell/haskell-vim',
     ft = "haskell",
     init = function()
         -- Tell the plugin to indent blocks by 4 spaces
