@@ -9,6 +9,7 @@ return {
       "html",
       "ts_ls",
       "clangd",
+      "qmlls"
     },
   },
   dependencies = {
