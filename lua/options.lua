@@ -11,6 +11,8 @@ options.guicursor = ""
 options.nu = true
 options.relativenumber = true
 
+options.cursorline = true
+
 options.undofile = true
 
 options.hlsearch = false
