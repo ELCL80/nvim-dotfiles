@@ -8,8 +8,7 @@ return {
       "pyright",
       "html",
       "ts_ls",
-      "clangd",
-      "qmlls"
+      "clangd"
     },
   },
   dependencies = {

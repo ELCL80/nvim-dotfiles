@@ -46,12 +46,6 @@ vim.lsp.config("nixd", {
 })
 vim.lsp.enable('nixd')
 
-vim.lsp.config('qmlls', {
-    cmd = { "qmlls", "-E" },
-    filetypes = { "qml", "qtquick" },
-    root_markers = { "qmlls.ini", ".git", "." }
-})
-vim.lsp.enable('qmlls')
 
 
 
