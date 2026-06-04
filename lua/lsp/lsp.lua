@@ -20,7 +20,6 @@ vim.lsp.config("rust_analyzer", {
     },
 })
 
-vim.lsp.enable('hls')
 vim.lsp.config("hls", {
     settings = {
         haskell = {
@@ -30,8 +29,8 @@ vim.lsp.config("hls", {
         }
     }
 })
+vim.lsp.enable('hls')
 
-vim.lsp.enable('nixd')
 vim.lsp.config("nixd", {
     settings = {
         nixd = {
@@ -45,9 +44,14 @@ vim.lsp.config("nixd", {
         },
     },
 })
+vim.lsp.enable('nixd')
 
-
-
+vim.lsp.config('qmlls', {
+    cmd = { "qmlls", "-E" },
+    filetypes = { "qml", "qtquick" },
+    root_markers = { "qmlls.ini", ".git", "." }
+})
+vim.lsp.enable('qmlls')
 
 
 
